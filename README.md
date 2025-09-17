@@ -4,7 +4,7 @@ This project demonstrates how to predict hourly electricity consumption using Li
 The dataset contains synthetic electricity consumption values across different hours of the day.
 
 # Project Structure
-.
+
 ├── electricity_data.csv   
 ├── main.py                
 └── README.md      
@@ -12,8 +12,8 @@ The dataset contains synthetic electricity consumption values across different h
 # Steps in the Code
 
 1. Import Libraries & Load Dataset
-   o Uses pandas, matplotlib, and scikit-learn for data analysis, visualization, and modeling.
-   o Loads the dataset electricity_data.csv.
+   . Uses pandas, matplotlib, and scikit-learn for data analysis, visualization, and modeling.
+   . Loads the dataset electricity_data.csv.
 
 2. Feature Engineering
    o Creates a new column prev_hour (consumption of the previous hour).
