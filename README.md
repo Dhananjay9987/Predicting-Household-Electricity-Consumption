@@ -40,9 +40,9 @@ The dataset contains synthetic electricity consumption values across different h
 
    1. Metrics used:
 
-     * Mean Absolute Error (MAE)
+      * Mean Absolute Error (MAE)
 
-     * R² Score
+      * R² Score
 
    2. Prints performance results.
 
