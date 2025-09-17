@@ -38,13 +38,13 @@ The dataset contains synthetic electricity consumption values across different h
 
 5. Evaluate Model
 
-   * Metrics used:
+   1. Metrics used:
 
-     Mean Absolute Error (MAE)
+     * Mean Absolute Error (MAE)
 
-     R² Score
+     * R² Score
 
-   * Prints performance results.
+   2. Prints performance results.
 
 6. Visualization
 
@@ -52,37 +52,36 @@ The dataset contains synthetic electricity consumption values across different h
 
 # Output
 
-   * Metrics:
+   1. Metrics:
 
-        Mean Absolute Error: ~4.5
-        R² Score: ~0.80
+       * Mean Absolute Error: ~4.5
+       * R² Score: ~0.80
 
 
-   * Visualization:
-       A line chart showing actual consumption vs predicted consumption.
+   2. Visualization:
+       *A line chart showing actual consumption vs predicted consumption.
 
 # Requirements
 
-   * Install dependencies before running:
-
-   * pip install pandas matplotlib scikit-learn
+   1. Install dependencies before running:
+        pip install pandas matplotlib scikit-learn
 
 # How to Run
 
-   * Run the script:
+   1. Run the script:
  
-     python main.py
+      python main.py
 
 
-   * View the prediction results and chart.
+   2. View the prediction results and chart.
 
 # Future Improvements
 
-   * Add seasonal/weekly variations in dataset.
+   1. Add seasonal/weekly variations in dataset.
 
-   * Try advanced models (Random Forest, LSTM).
+   2. Try advanced models (Random Forest, LSTM).
 
-   * Deploy model as a web app for real-time prediction.
+   3. Deploy model as a web app for real-time prediction.
 
 # Author
 
