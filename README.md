@@ -12,77 +12,77 @@ The dataset contains synthetic electricity consumption values across different h
 # Steps in the Code
 1. Import Libraries & Load Dataset
 
-* ses pandas, matplotlib, and scikit-learn for data analysis, visualization, and modeling.
+   * ses pandas, matplotlib, and scikit-learn for data analysis, visualization, and modeling.
 
-* Loads the dataset electricity_data.csv.
+   * Loads the dataset electricity_data.csv.
 
 2. Feature Engineering
 
-Creates a new column prev_hour (consumption of the previous hour).
+   * Creates a new column prev_hour (consumption of the previous hour).
 
-Uses hour and prev_hour as features.
+   * Uses hour and prev_hour as features.
 
-Drops missing values after shifting.
+   * Drops missing values after shifting.
 
 3. Train-Test Split
 
-Splits the dataset into training (80%) and testing (20%) sets.
+   * Splits the dataset into training (80%) and testing (20%) sets.
 
-No shuffling to maintain time-series order.
+   * No shuffling to maintain time-series order.
 
 4. Train Model
 
-Trains a Linear Regression model on training data.
+   * Trains a Linear Regression model on training data.
 
-Predicts electricity consumption on test data.
+   * Predicts electricity consumption on test data.
 
 5. Evaluate Model
 
-Metrics used:
+   * Metrics used:
 
-Mean Absolute Error (MAE)
+     Mean Absolute Error (MAE)
 
-R² Score
+     R² Score
 
-Prints performance results.
+   * Prints performance results.
 
 6. Visualization
 
-Plots Actual vs Predicted electricity consumption values for test data.
+   * Plots Actual vs Predicted electricity consumption values for test data.
 
 # Output
 
-Metrics:
+   * Metrics:
 
-Mean Absolute Error: ~4.5
-R² Score: ~0.80
+        Mean Absolute Error: ~4.5
+        R² Score: ~0.80
 
 
-Visualization:
-A line chart showing actual consumption vs predicted consumption.
+   * Visualization:
+       A line chart showing actual consumption vs predicted consumption.
 
 # Requirements
 
-Install dependencies before running:
+   * Install dependencies before running:
 
-pip install pandas matplotlib scikit-learn
+   * pip install pandas matplotlib scikit-learn
 
 # How to Run
 
-Run the script:
+   * Run the script:
+ 
+     python main.py
 
-python main.py
 
-
-View the prediction results and chart.
+   * View the prediction results and chart.
 
 # Future Improvements
 
-@ Add seasonal/weekly variations in dataset.
+   * Add seasonal/weekly variations in dataset.
 
-@Try advanced models (Random Forest, LSTM).
+   * Try advanced models (Random Forest, LSTM).
 
-@Deploy model as a web app for real-time prediction.
+   * Deploy model as a web app for real-time prediction.
 
 # Author
 
