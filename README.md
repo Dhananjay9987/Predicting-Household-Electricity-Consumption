@@ -1,15 +1,15 @@
-Electricity Consumption Prediction using Linear Regression
+# Electricity Consumption Prediction using Linear Regression
 
 This project demonstrates how to predict hourly electricity consumption using Linear Regression with historical consumption data.
 The dataset contains synthetic electricity consumption values across different hours of the day.
 
-Project Structure
+# Project Structure
 .
 ├── electricity_data.csv   # Dataset (500 rows, hour vs consumption)
 ├── main.py                # Python script for training & evaluation
 └── README.md              # Project documentation
 
-Steps in the Code
+# Steps in the Code
 1. Import Libraries & Load Dataset
 
 Uses pandas, matplotlib, and scikit-learn for data analysis, visualization, and modeling.
@@ -50,7 +50,7 @@ Prints performance results.
 
 Plots Actual vs Predicted electricity consumption values for test data.
 
-Example Output
+# Output
 
 Metrics:
 
@@ -61,19 +61,13 @@ R² Score: ~0.80
 Visualization:
 A line chart showing actual consumption vs predicted consumption.
 
-Requirements
+# Requirements
 
 Install dependencies before running:
 
 pip install pandas matplotlib scikit-learn
 
-How to Run
-
-Clone this repository:
-
-git clone https://github.com/your-username/electricity-consumption-prediction.git
-cd electricity-consumption-prediction
-
+# How to Run
 
 Run the script:
 
@@ -82,12 +76,14 @@ python main.py
 
 View the prediction results and chart.
 
-Future Improvements
+# Future Improvements
 
-Add seasonal/weekly variations in dataset.
+@ Add seasonal/weekly variations in dataset.
 
-Try advanced models (Random Forest, LSTM).
+@Try advanced models (Random Forest, LSTM).
 
-Deploy model as a web app for real-time prediction.
+@Deploy model as a web app for real-time prediction.
 
-Author: Dhananjay Gupta
+# Author
+
+ Dhananjay Gupta
