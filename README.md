@@ -59,18 +59,18 @@ The dataset contains synthetic electricity consumption values across different h
 
 
    2. Visualization:
-       *A line chart showing actual consumption vs predicted consumption.
+       * A line chart showing actual consumption vs predicted consumption.
 
 # Requirements
 
    1. Install dependencies before running:
-        pip install pandas matplotlib scikit-learn
+        * pip install pandas matplotlib scikit-learn
 
 # How to Run
 
    1. Run the script:
  
-      python main.py
+        *  python main.py
 
 
    2. View the prediction results and chart.
