@@ -1,64 +1,93 @@
-# Predicting-Household-Electricity-Consumption
+Electricity Consumption Prediction using Linear Regression
 
 This project demonstrates how to predict hourly electricity consumption using Linear Regression with historical consumption data.
 The dataset contains synthetic electricity consumption values across different hours of the day.
 
-# Project Structure
+Project Structure
+.
+├── electricity_data.csv   # Dataset (500 rows, hour vs consumption)
+├── main.py                # Python script for training & evaluation
+└── README.md              # Project documentation
 
-├── electricity_data.csv   
-├── main.py                
-└── README.md      
-
-# Steps in the Code
-
+Steps in the Code
 1. Import Libraries & Load Dataset
-   a. Uses pandas, matplotlib, and scikit-learn for data analysis, visualization, and modeling.
-   b. Loads the dataset electricity_data.csv.
+
+Uses pandas, matplotlib, and scikit-learn for data analysis, visualization, and modeling.
+
+Loads the dataset electricity_data.csv.
 
 2. Feature Engineering
-   o Creates a new column prev_hour (consumption of the previous hour).
-   o Uses hour and prev_hour as features.
-   o Drops missing values after shifting.
+
+Creates a new column prev_hour (consumption of the previous hour).
+
+Uses hour and prev_hour as features.
+
+Drops missing values after shifting.
 
 3. Train-Test Split
-   o Splits the dataset into training (80%) and testing (20%) sets.
-   o No shuffling to maintain time-series order.
+
+Splits the dataset into training (80%) and testing (20%) sets.
+
+No shuffling to maintain time-series order.
 
 4. Train Model
-   o Trains a Linear Regression model on training data.
-   o Predicts electricity consumption on test data.
+
+Trains a Linear Regression model on training data.
+
+Predicts electricity consumption on test data.
 
 5. Evaluate Model
-   o Metrics used: Mean Absolute Error (MAE), R² Score
-   o Prints performance results.
+
+Metrics used:
+
+Mean Absolute Error (MAE)
+
+R² Score
+
+Prints performance results.
 
 6. Visualization
-   o Plots Actual vs Predicted electricity consumption values for test data.
 
-# Output
+Plots Actual vs Predicted electricity consumption values for test data.
 
-1. Metrics:
-   o Mean Absolute Error: ~4.5
-   o R² Score: ~0.80
+Example Output
 
-2. Visualization:
-   o A line chart showing actual consumption vs predicted consumption.
+Metrics:
 
-# Requirements
-
-  o Install dependencies before running: pip install pandas matplotlib scikit-learn
-
-# How to Run
-
-1. Run the script:
-   o python main.py
-   o View the prediction results and chart.
-
-# Future Improvements
-  o Add seasonal/weekly variations in dataset.
-  o Try advanced models (Random Forest, LSTM).
-  o Deploy model as a web app for real-time prediction.
+Mean Absolute Error: ~4.5
+R² Score: ~0.80
 
 
+Visualization:
+A line chart showing actual consumption vs predicted consumption.
+
+Requirements
+
+Install dependencies before running:
+
+pip install pandas matplotlib scikit-learn
+
+How to Run
+
+Clone this repository:
+
+git clone https://github.com/your-username/electricity-consumption-prediction.git
+cd electricity-consumption-prediction
 
 
+Run the script:
+
+python main.py
+
+
+View the prediction results and chart.
+
+Future Improvements
+
+Add seasonal/weekly variations in dataset.
+
+Try advanced models (Random Forest, LSTM).
+
+Deploy model as a web app for real-time prediction.
+
+Author: Dhananjay Gupta
