@@ -64,6 +64,7 @@ The dataset contains synthetic electricity consumption values across different h
 # Requirements
 
    1. Install dependencies before running:
+   
         * pip install pandas matplotlib scikit-learn
 
 # How to Run
