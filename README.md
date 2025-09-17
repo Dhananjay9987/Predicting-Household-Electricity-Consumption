@@ -12,7 +12,7 @@ The dataset contains synthetic electricity consumption values across different h
 # Steps in the Code
 1. Import Libraries & Load Dataset
 
-**Uses pandas, matplotlib, and scikit-learn for data analysis, visualization, and modeling.**
+**Uses pandas, matplotlib, and scikit-learn for data analysis, visualization, and modeling.
 
 Loads the dataset electricity_data.csv.
 
